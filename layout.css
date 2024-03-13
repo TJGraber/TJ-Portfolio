@@ -1,0 +1,85 @@
+#container, #awardsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 87.1%;
+  margin-left: 6.5%;
+  margin-bottom: 12px;
+}
+#awardsContainer{
+  justify-content: space-evenly;
+}
+
+.indexBox{
+  border: 4.5px solid #333533;
+  width: 32%;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  background-color: #E8EDDF;
+
+  padding-top: 20px;
+  margin-bottom: 1vh;
+}
+
+.awardPic{
+  width: 300px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.academicBox, .rightAcademicBox, .bottomAcademicBox{
+  border: 4.5px solid #333533;
+  width: 48.7%;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+
+  margin-right: 12px;
+  margin-bottom: 12px;
+
+  display: flex;
+}
+
+
+@media screen and (max-width: 1100px) {
+  main{
+    padding-bottom: 14%;
+  }
+}
+@media screen and (max-width: 800px) {
+  main{
+    padding-bottom: 18%;
+  }
+  #ocPicture{
+    display: none;
+  }
+  .indexBox{
+    width: 100%;
+  }
+  #ocPicture{
+    height: 220px;
+    width: 85.5%;
+  }
+  .fullPageIFrame{
+    width: 100%;
+  }
+  .dropdown{
+    left: 70%;
+  }
+  .largeDiv{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 650px) {
+  main{
+    padding-bottom: 28%;
+  }
+  .dropdown{
+    left: 30%;
+    bottom: 55%;
+  }
+  #ddmDropdown{
+    left: 37%;
+  }
+}

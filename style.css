@@ -1,0 +1,214 @@
+html {
+  height: 100%;
+  width: 100%;
+
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #CFDBD5;
+
+  /* For the footer */
+  position: relative;
+  min-height: 100vh;
+  margin: 0px;
+}
+main {
+  /* For the footer */
+  padding-bottom: 10%;
+}
+
+/* Header Content */
+header{
+  padding-top: 10px;
+  background-color: #E8EDDF;
+  box-shadow: 0px 5px 5px grey;
+  font-family: 'Barlow', sans-serif;
+}
+
+#websiteHeader, #pageHeader, .reflectionHeader{
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+}
+#websiteHeader{
+  margin-top: 0px;
+}
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  
+  flex-wrap: wrap;
+  padding-top: 9px;
+  padding-bottom: 9px;
+
+  margin-left: 6%;
+  margin-right: 6%;
+  /* width: 86%; */
+  font-size: 17px;
+}
+.button{
+  background-color: #E8EDDF;
+  padding: 14px;
+  border-radius: 20px;
+}
+.home{
+  align-self: center;
+}
+.button:hover, .home:hover{
+  text-decoration: underline;
+  /* background-color: #CFDBD5; */
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#onPage{
+  text-decoration: underline;
+  /* background-color: #CFDBD5; */
+}
+
+
+.indexPic{
+  width: 150px;
+  height: 100px;
+}
+.indexBox:hover, .rightIndexBox:hover, .bottomIndexBox:hover{
+  opacity: 0.75;
+}
+
+#coverLetter, #reflection, .largeDiv{
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  margin-bottom: 12px;
+  margin-left: 6.5%;
+  width: 86.5%;
+  border: 4.5px solid #333533;
+  background-color: #E8EDDF;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#coverLetter, #reflection{
+  padding: 30px;
+  text-align: justify;
+
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+   box-sizing: border-box; 
+}
+.reflectionParagraph{
+  text-indent: 3%;
+  margin: 2px;
+  padding: 2px;
+}
+#ocPicture{
+  margin-bottom: 12px;
+  margin-left: 6.5%;
+  width: 86.5%;
+  border: 4.5px solid #333533;
+}
+.largeDiv{
+  font-family: 'Barlow', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.fullPageIFrame{
+  width: 850px;
+  height: 1100px;
+  border: 0;
+  border-radius: 0;
+}
+#relatedIFrameOne{
+  height: 875px;
+}
+#relatedIFrameTwo{
+  height: 560px;
+}
+.academicIframe{
+  width: 850px;
+  height: 500px;
+  border: 0;
+  border-radius: 0;
+
+  background-color: white;
+}
+#selfPicture{
+  /* height: 200px; */
+  width: 155px;
+
+  float: right;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+#careerPlan{
+  margin-left: 10%;
+  width: 75%;
+}
+
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  bottom: 45px;
+  left: 78%;
+
+  font-size: 20px;
+  font-family: 'Barlow', sans-serif;
+}
+.dropdownContent {
+  display: none;
+  position: absolute;
+  width: 120%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  background-color: #E8EDDF;
+}
+#dropdownContentSmaller{
+  width: 160%;
+}
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+.dropdownContent a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+}
+.dropdownContent a:hover {
+  background-color: #00A4BD;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+
+  background-color: #E8EDDF;
+  /* box-shadow: 0px 5px 5px grey; */
+  box-shadow: 0px 0px 8px 2px grey;
+
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  width: 100%;
+  padding-top: 0.4%;
+  padding-bottom: 0.4%;
+}
+#footerContactInfo{
+  /* display: flex;
+  justify-content: center; */
+  width: 48%;
+  margin-left: 26%;
+  margin-right: 26%;
+  padding-top: 1%;
+  border-top: solid 2px;
+}
+
+/* MEDIA QUERIES these probably only work in the other css file*/
+@media screen and (min-width: 600px) {
+  
+}
